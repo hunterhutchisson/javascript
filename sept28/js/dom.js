@@ -92,7 +92,7 @@ button.appendChild(span)
 // create the part in collapse
 
 var navbarNav  = createDivWithStyles('collapse navbar-collapse')
-
+navbarNav.setAttribute('id', 'navbarNav')
 // create the list
 
 var ul = document.createElement('ul')
